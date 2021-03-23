@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Ejercicios HTML 3 y 5</title>
+</head>
+
+<body>
+  <form action="URL" method="get">
+    <fieldset>
+      <legend>Datos de usuario</legend>
+      <p> <label for="name_id">Nombre <input type="text" id="name_id" autofocus required></label>
+      <label for="email_id"> email <input type="email" id="email_id" required></label>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Web</legend>
+      <p><label for="url_id">URL <input type="url" id="url_id" placeholder="Escribe la URL de tu página web personal"></label></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos temporales</legend>
+      <p><label for="date_id">Fecha <input type="date" id="date_id"></label></p>
+      <p><label for="time_id">Tiempo <input type="time" id="time_id"></label></p>
+      <p><label for="month_id">Mes<input type="month" id="month_id"></label></p>
+      <p><label for="week_id">Semana<input type="week" id="week_id"></label></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Mix</legend>
+      <p><label for="number_id">Número <input type="number" min="-10" max="10" id="number_id"></label></p>
+      <p><label for="tel_id">Teléfono<input type="tel" value="630 123 123" id="tel_id" readonly></label></p>
+      <p><label for="search_id">Término de busqueda <input type="search" id="search_id" disabled></label></p>
+      <p><label for="color_id">Color favorito <input type="color" id="color_id"></label></p>
+    </fieldset>
+    <p><input class="button" type="submit" value="Enviar" /></p>
+
+</form>
+
+
+  
+
+</body>
+
+</html>

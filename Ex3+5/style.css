@@ -1,0 +1,33 @@
+form {
+  max-width: 800px;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:required {
+  background-color: red;
+}
+
+fieldset {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+fieldset:hover {
+  background-color: grey;
+}
+fieldset:first-of-type {
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+}
+
+fieldset:last-of-type {
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border-width: 0px;
+}
